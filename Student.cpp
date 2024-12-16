@@ -10,6 +10,11 @@ Student::Student() {
   gpa = 0.00;
 }
 
+Student::~Student() {
+  delete firstName;
+  delete lastName;
+}
+
 void Student::setID(int newID) {
   id = newID;
 }
