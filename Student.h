@@ -7,6 +7,7 @@ using namespace std;
 class Student {
  public:
   Student();
+  ~Student();
   void setID(int newID);
   int getID();
   void setFName(char* newFName);
